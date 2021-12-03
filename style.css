@@ -1,0 +1,128 @@
+#title{
+    font-size: 200px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    color: #f0efeb;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+    font-size: 100;
+}
+.intro{
+    background-color: #2abaf3;
+    height: 950px;
+    text-shadow:  1em 1em 2em #302f2b ;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#bottext{
+    font-size: 50px;
+    text-align: center;
+   
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #fff1e6;
+    padding-top:100px;
+   
+    font-size: 100;
+}
+.aboutbot{
+    background-color: #6fd08c;
+    height: 600px;
+}
+#logo{
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 0px;
+    border: 5px solid #f0efeb;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+}
+.features{
+    margin-top: 10px;
+    
+    margin-left: 115px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff1e6;
+}
+#help{
+    color: black;
+}
+.invite{
+    background-color: #36393f;
+    height: 200px;
+    
+}
+.btn-danger{
+    background-color: #5865f2!important;
+    border-color: #5865f2 !important; 
+    color: #fff1e6;
+    justify-content: center;
+    margin-left: 42%;
+
+}
+.btn-danger:hover {
+    background-color: #6fd08c!important;
+    border-color:  #6fd08c !important;
+}
+
+#subtitle{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    color: #c7a72a;
+    padding: 50px;
+    margin-left: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+    font-size: 100;
+}
+@media (min-width: 0px ) and  (max-width: 700px  ) {
+    #title{
+        font-size: 100px;
+    }
+    #logo{
+        width: 200px;
+    }
+    .intro{
+        height: 600px;
+    }
+    .features{
+        font-size: 20px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        margin-left: 4px;
+        padding: 5px;
+    }
+    #bottext{
+        font-size: 25px;
+    }
+    .btn-danger{
+        margin-left: 35%;
+    }
+    
+    
+    
+}
+@media (min-width: 0px ) and  (max-width: 577px  ) {
+    #title{
+        font-size: 75px;
+    }
+    .btn-danger{margin-left : 20%;}
+    
+}
