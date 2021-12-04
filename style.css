@@ -122,10 +122,7 @@ body{
     #bottext{
         font-size: 25px;
     }
-    .btn-danger{
-        margin-left: 35%;
-    }
-    
+  
     
     
 }
@@ -133,9 +130,7 @@ body{
     #title{
         font-size: 75px;
     }
-    .btn-danger{margin-left : 20%;}
-    
-}
+   
 .mynav{
     height: 50px;
     margin-top: 10px;
