@@ -21,6 +21,7 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    width: 100%;
 }
 #bottext{
     font-size: 50px;
@@ -37,6 +38,9 @@ body{
 .aboutbot{
     background-color: #6fd08c;
     height: 600px;
+}
+.thelogo{
+    border-radius: 20%;
 }
 #logo{
     width: 300px;
@@ -69,7 +73,13 @@ body{
     border-color: #5865f2 !important; 
     color: #fff1e6;
     justify-content: center;
-    margin-left: 42%;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
 
 }
 .btn-danger:hover {
@@ -125,4 +135,8 @@ body{
     }
     .btn-danger{margin-left : 20%;}
     
+}
+.mynav{
+    height: 50px;
+    margin-top: 10px;
 }
